@@ -14,12 +14,12 @@ jobs:
        - checkout
        - run: npm install
        - run: npm run test
-    bobby:
-      docker:
-        - image: circleci/node:latest
-      steps:
-        - checkout
-        - run : echo "Helllooooooooooo"
+   bobby:
+     docker:
+       - image: circleci/node:latest
+     steps:
+       - checkout
+       - run: echo "Helllooooooooooo"
    hithere:
      docker:
        - image: circleci/node:latest
